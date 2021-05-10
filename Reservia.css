@@ -56,4 +56,16 @@ section
 footer
 {
   background-color: #f2f2f2 ;
+  margin-right: 0.625%;
+}
+
+a
+{
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 0.625%;
+  line-height: 2;
+  color: black;
+  font-family: Raleway;
 }
