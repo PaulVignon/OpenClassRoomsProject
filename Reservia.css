@@ -1,15 +1,15 @@
-h1, h2, h3, h4
-{  
+h1,
+h2,
+h3,
+h4 {
   font-family: Raleway;
 }
 
-nav
-{
+nav {
   font-family: Raleway;
 }
 
-ul
-{
+ul {
   color: white;
 }
 
@@ -22,51 +22,43 @@ label {
 
 input,
 label {
-  margin: .4rem 0;
-  
+  margin: 0.4rem 0;
 }
 
-input
-{
+input {
   border-color: #f2f2f2;
   border-style: solid;
 }
 
-button
-{
+button {
   color: white;
-  background-color: #0065FC;
+  background-color: #0065fc;
   border-bottom-right-radius: 20%;
   border-top-right-radius: 20%;
-  border-color: #0065FC;
+  border-color: #0065fc;
   border-style: solid;
 }
 
-p
-{
+p {
   font-family: Raleway;
 }
 
-section
-{
+section {
   background-color: #f2f2f2;
   border-radius: 3%;
 }
 
-footer
-{
-  background-color: #f2f2f2 ;
+footer {
+  background-color: #f2f2f2;
   margin-right: 0.625%;
 }
 
-#conteneur3
-{
+#conteneur3 {
   display: flex;
   justify-content: space-around;
 }
 
-a
-{
+a {
   outline: none;
   text-decoration: none;
   display: inline-block;
