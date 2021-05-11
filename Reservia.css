@@ -20,9 +20,16 @@ label {
   background-color: #f2f2f2;
 }
 
+.fas fa-map-marker-alt {
+  float: left;
+  width: min-content
+
+}
+
 input,
 label {
   margin: 0.4rem 0;
+  width: min-content
 }
 
 input {
@@ -30,13 +37,9 @@ input {
   border-style: solid;
 }
 
-button {
-  color: white;
-  background-color: #0065fc;
-  border-bottom-right-radius: 20%;
-  border-top-right-radius: 20%;
-  border-color: #0065fc;
-  border-style: solid;
+.Filtres {
+  border: solid #f2f2f2;
+  width: min-content
 }
 
 p {
@@ -46,6 +49,11 @@ p {
 section {
   background-color: #f2f2f2;
   border-radius: 3%;
+  width: min-content
+
+}
+
+article {
 }
 
 footer {
@@ -53,7 +61,7 @@ footer {
   margin-right: 0.625%;
 }
 
-#conteneur3 {
+.conteneur3 {
   display: flex;
   justify-content: space-around;
 }
