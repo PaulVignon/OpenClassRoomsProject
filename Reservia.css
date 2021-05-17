@@ -3,6 +3,7 @@ h2,
 h3,
 h4 {
   font-family: Raleway;
+  display: inline;
 }
 
 body {
@@ -16,12 +17,11 @@ body {
 .nav {
   font-family: Raleway;
   float: right;
-  display: flex;
-  justify-content: space-around;
+  display: inline;
 }
 
 .elements {
-  display: flex;
+  display: inline;
   justify-content: space-around;
 }
 
@@ -29,16 +29,53 @@ ul {
   color: white;
 }
 
+li{
+  display: inline;
+}
+
 label {
-  display: block;
+  display: inline;
   font: 1rem Raleway, sans-serif;
   font-weight: bold;
   background-color: #f2f2f2;
 }
 
 .fas fa-map-marker-alt {
+  display: inline-block;
   float: left;
   width: min-content;
+}
+
+.fas fa-money-bill-wave{
+  display: inline-block;
+  float: left;
+  color: #0065FC;
+}
+
+.fas fa-child{
+  display: inline-block;
+  color: #0065FC;
+}
+
+.fas fa-heart{
+  display: inline-block;
+  color: #0065FC;
+}
+
+.fas fa-dog{
+  color: #0065FC;
+  display: inline-block;
+}
+
+.fas fa-info{
+  display: inline-block;
+  float: left;
+}
+
+.fas fa-chart-line{
+  float: right;
+  justify-content: right;
+  display: inline-block;
 }
 
 input,
