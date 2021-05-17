@@ -72,7 +72,16 @@ section {
 article {
   width: min-content;
   background-color: #f2f2f2;
-    border-radius: 3%;
+  border-radius: 3%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Photo1{
+  width: 240px;
+  height: 190px;
+  border-radius: 7%;
+  border: solid white 7px;
 }
 
 aside{
