@@ -8,6 +8,7 @@ h4 {
 
 body {
   margin-left: 50px;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
 }
 
 .Reservia {
@@ -25,22 +26,66 @@ body {
   justify-content: space-around;
 }
 
+.elements2{
+  color: #0065FC;
+  font-weight: bold;
+}
+
+
+
 ul {
-  color: white;
+  color: #0065FC;
+  
 }
 
 li{
   display: inline;
+  
+}
+
+i[class="fas fa-money-bill-wave"],
+i[class="fas fa-child"],
+i[class="fas fa-heart"],
+i[class="fas fa-dog"]{
+  background-color: #DEEBFF;
+  width: 30px;
+  height: 30px;
+  border-radius: 1em;
 }
 
 label {
   display: inline;
   font: 1rem Raleway, sans-serif;
   font-weight: bold;
-  background-color: #f2f2f2;
+  
 }
 
+i[class="fas fa-map-marker-alt"]{
+  background-color: #f2f2f2;
+  height: 40px;
+  width: 40px;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+input[type="search"]{
+  height: 40px;
+}
+
+input[type="submit"]{
+  background-color: #0065FC;
+  color: white;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  font-family: Raleway;
+  font-weight:600;
+  height: 40px;
+  cursor:pointer;
+ }
+
 .fas fa-map-marker-alt {
+  height: 40px;
+  width: 40px;
   display: inline-block;
   float: left;
   width: min-content;
@@ -93,7 +138,7 @@ input {
   border: solid #f2f2f2;
   width: min-content;
   font-weight: bold;
-  border-radius: 20%;
+  border-radius: 1em;
 }
 
 p {
@@ -107,7 +152,7 @@ section {
 article {
   width: min-content;
   background-color: #f2f2f2;
-  border-radius: 3%;
+  border-radius: 1em;
   display: flex;
   justify-content: space-around;
 }
@@ -115,9 +160,11 @@ article {
 .Photo1 {
   width: 240px;
   height: 190px;
-  border-radius: 10%;
+  border-radius: 1.5em;
   border: solid white 7px;
   box-shadow: rgb(184, 184, 184) 0px 0px 5px;
+  box-sizing: content-box;
+  
 }
 
 aside {
@@ -129,7 +176,7 @@ aside {
 .Photo2 {
   width: 150px;
   height: 150px;
-  border-radius: 10%;
+  border-radius: 1.5em;
   border: solid white 7px;
   box-shadow: rgb(184, 184, 184) 0px 0px 5px;
 }
