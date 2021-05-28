@@ -31,22 +31,33 @@ body {
   font-weight: bold;
 }
 
-
+div[class="box"]{
+  display: inline-block;
+  align-content: flex-start;
+}
 
 ul {
   color: #0065FC;
   
 }
 
-li{
-  display: inline;
-  
+li[class="Filtres"]{
+  display: flex;
+  justify-content: stretch;
+  border: solid #f2f2f2;
+  width: auto;
+  font-weight: bold;
+  border-radius: 1em;
+  margin-left: 40px;
+ 
+
 }
 
-i[class="fas fa-money-bill-wave"],
-i[class="fas fa-child"],
-i[class="fas fa-heart"],
-i[class="fas fa-dog"]{
+div[class="fas fa-money-bill-wave"],
+div[class="fas fa-child"],
+div[class="fas fa-heart"],
+div[class="fas fa-dog"]{
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,6 +66,8 @@ i[class="fas fa-dog"]{
   height: 40px;
   border-radius: 2em;
 }
+
+
 
 label {
   
@@ -98,27 +111,6 @@ input[type="submit"]{
   background-position: center;
 }
 
-.fas fa-money-bill-wave{
-  display: inline-block;
-  float: left;
-  color: #0065FC;
-}
-
-.fas fa-child{
-  display: inline-block;
-  color: #0065FC;
-}
-
-.fas fa-heart{
-  display: inline-block;
-  color: #0065FC;
-}
-
-.fas fa-dog{
-  color: #0065FC;
-  display: inline-block;
-}
-
 .fas fa-info{
   display: inline-block;
   float: left;
@@ -141,12 +133,6 @@ label {
 input {
   border-color: #f2f2f2;
   border-style: solid;
-}
-
-.Filtres {
-  border: solid #f2f2f2;
-  font-weight: bold;
-  border-radius: 1em;
 }
 
 p {
