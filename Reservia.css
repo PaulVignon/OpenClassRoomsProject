@@ -167,10 +167,18 @@ aside {
   border-radius: 3%;
 }
 
+div[class="box"]{
+  width: 300px;
+  height: 170px;
+  border-radius: 1.5em;
+  color: white;
+}
+
 .Photo2 {
   width: 150px;
   height: 150px;
-  border-radius: 1.5em;
+  border-top-left-radius: 1.5em;
+  border-bottom-left-radius: 1.5em;
   border: solid white 7px;
   box-shadow: rgb(184, 184, 184) 0px 0px 5px;
   box-sizing: content-box;
