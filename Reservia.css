@@ -144,7 +144,7 @@ section {
 }
 
 article[class="Hébergements"]{
-  width: min-content;
+  width: 60%;
   background-color: #f2f2f2;
   border-radius: 1em;
   display: flex;
@@ -159,7 +159,6 @@ article[class="Hébergements"]{
   box-shadow: rgb(184, 184, 184) 0px 0px 5px;
   box-sizing: content-box;
   object-fit: cover;
-  
 }
 
 aside {
@@ -180,6 +179,37 @@ aside {
 
 article[class="Activités"]{
 
+  display: inline-flex;
+}
+
+.Photo3_Grande{
+  width: 260px;
+  height: 400px;
+  border-radius: 1.5em;
+  border: solid white 0px;
+  box-shadow: rgb(184, 184, 184) 0px 0px 5px;
+  box-sizing: content-box;
+  object-fit: cover;
+}
+
+.Photo3_Moyenne {
+  width: 260px;
+  height: 200px;
+  border-radius: 1.5em;
+  border: solid white 0px;
+  box-shadow: rgb(184, 184, 184) 0px 0px 5px;
+  box-sizing: content-box;
+  object-fit: cover;
+}
+
+.Photo3_Petite {
+  width: 260px;
+  height: 150px;
+  border-radius: 1.5em;
+  border: solid white 0px;
+  box-shadow: rgb(184, 184, 184) 0px 0px 5px;
+  box-sizing: content-box;
+  object-fit: cover;
 }
 
 footer {
