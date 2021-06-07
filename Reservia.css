@@ -31,6 +31,11 @@ li[class="elements"] {
   flex-direction: row;
 }
 
+div[class="Filtres"]{
+  display: flex;
+  flex-direction: row;
+}
+
 div[class="box"] {
   display: inline-block;
   align-content: flex-start;
@@ -48,6 +53,11 @@ li[class="Filtres"] {
   font-weight: bold;
   border-radius: 1em;
   margin-left: 40px;
+}
+
+div[class="NomFiltre"]{
+  position: absolute;
+  
 }
 
 div[class="fas fa-money-bill-wave"],
@@ -107,6 +117,11 @@ input[type="submit"] {
   float: left;
   width: min-content;
   background-position: center;
+}
+
+div[class="Info"]{
+  display: flex;
+  flex-direction: row;
 }
 
 .fas fa-info {
