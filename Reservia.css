@@ -80,6 +80,11 @@ i[class="fas fa-map-marker-alt"] {
   border-bottom-left-radius: 1em;
 }
 
+div[class="Search"]{
+  display: flex;
+  flex-direction: row;
+}
+
 input[type="search"] {
   height: 40px;
 }
