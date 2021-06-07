@@ -147,11 +147,12 @@ article[class="Hébergements"]{
   width: 60%;
   background-color: #f2f2f2;
   border-radius: 1em;
-  display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  
 }
 
 .Photo1 {
+  flex-direction:row;
   width: 240px;
   height: 190px;
   border-radius: 1.5em;
@@ -161,10 +162,21 @@ article[class="Hébergements"]{
   object-fit: cover;
 }
 
+div[class="Haut"]{
+  display: flex;
+  justify-content: space-around;
+}
+
+div[class="Bas"]{
+  display: flex;
+  justify-content: space-around;
+}
+
+
 aside {
   width: min-content;
   background-color: #f2f2f2;
-  border-radius: 3%;
+  border-radius: 1.5em;
 }
 
 div[class="box"]{
@@ -187,7 +199,7 @@ div[class="box"]{
 
 article[class="Activités"]{
 
-  display: inline-flex;
+  display: flex;
 }
 
 .Photo3_Grande{
@@ -202,7 +214,7 @@ article[class="Activités"]{
 
 .Photo3_Moyenne {
   width: 260px;
-  height: 200px;
+  height: 210px;
   border-radius: 1.5em;
   border: solid white 0px;
   box-shadow: rgb(184, 184, 184) 0px 0px 5px;
@@ -212,7 +224,7 @@ article[class="Activités"]{
 
 .Photo3_Petite {
   width: 260px;
-  height: 150px;
+  height: 170px;
   border-radius: 1.5em;
   border: solid white 0px;
   box-shadow: rgb(184, 184, 184) 0px 0px 5px;
