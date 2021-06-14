@@ -31,40 +31,35 @@ li[class="elements"] {
   flex-direction: row;
 }
 
+div[class="section"]{
+  display: flex;
+}
+
 div[class="Filtres"]{
   display: flex;
   flex-direction: row;
 }
 
-div[class="box"] {
-  display: inline-block;
-  align-content: flex-start;
-}
-
-ul {
+ul[class="Filtres"] {
   color: #0065fc;
+  display: flex;
+  justify-content:space-around ;
+
 }
 
 li[class="Filtres"] {
-  display: flex;
-  justify-content: stretch;
-  border: solid #f2f2f2;
-  width: auto;
-  font-weight: bold;
-  border-radius: 1em;
-  margin-left: 40px;
+ 
 }
 
 div[class="NomFiltre"]{
-  position: absolute;
-  
+
 }
 
 div[class="fas fa-money-bill-wave"],
 div[class="fas fa-child"],
 div[class="fas fa-heart"],
 div[class="fas fa-dog"] {
-  position: absolute;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,13 +116,16 @@ input[type="submit"] {
 
 div[class="Info"]{
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
 }
 
-.fas fa-info {
-  display: inline-block;
-  float: left;
+label[class="Info"]{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
 
 .fas fa-chart-line {
   float: right;
@@ -155,10 +153,19 @@ section {
 }
 
 article[class="Hébergements"] {
-  width: 60%;
+  width: auto;
   background-color: #f2f2f2;
   border-radius: 1em;
   flex-direction: column;
+}
+
+h2[class="Titre1"]{
+  margin-left: 45px;
+}
+
+p[class="Afficher"]{
+  margin-left: 45px;
+    font-weight: bold;
 }
 
 .Photo1 {
@@ -186,6 +193,7 @@ aside {
   width: min-content;
   background-color: #f2f2f2;
   border-radius: 1.5em;
+  margin-left: 30px;
 }
 
 div[class="box"] {
@@ -194,6 +202,8 @@ div[class="box"] {
   border-radius: 1.5em;
   color: white;
 }
+
+
 
 .Photo2 {
   width: 150px;
