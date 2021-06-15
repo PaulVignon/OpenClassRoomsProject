@@ -43,20 +43,24 @@ div[class="Filtres"]{
 ul[class="Filtres"] {
   color: #0065fc;
   display: flex;
-  justify-content:space-around ;
-
+  justify-content:space-around;
+  white-space: nowrap;
 }
 
 li[class="Filtres"] {
   display: flex;
   border: #f2f2f2 solid 2px;
   border-radius: 100em;
-  margin-left: 100px;
+  margin-left: 20px;
  
 }
 
 div[class="NomFiltre"]{
+  display: flex;
+}
 
+a{
+  margin: 4px 10px;
 }
 
 div[class="fas fa-money-bill-wave"],
@@ -127,6 +131,15 @@ label[class="Info"]{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 27px;
+  height: 27px;
+  border: solid #f2f2f2;
+  border-radius: 50em;
+  color: #0065fc;
+}
+
+p[class="Info"]{
+  margin-left: 15px;
 }
 
 
