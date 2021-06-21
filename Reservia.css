@@ -31,11 +31,11 @@ li[class="elements"] {
   flex-direction: row;
 }
 
-div[class="section"]{
+div[class="section"] {
   display: flex;
 }
 
-div[class="Filtres"]{
+div[class="Filtres"] {
   display: flex;
   flex-direction: row;
 }
@@ -43,7 +43,7 @@ div[class="Filtres"]{
 ul[class="Filtres"] {
   color: #0065fc;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   white-space: nowrap;
 }
 
@@ -52,14 +52,13 @@ li[class="Filtres"] {
   border: #f2f2f2 solid 2px;
   border-radius: 100em;
   margin-left: 20px;
- 
 }
 
-div[class="NomFiltre"]{
+div[class="NomFiltre"] {
   display: flex;
 }
 
-a{
+a {
   margin: 4px 10px;
 }
 
@@ -67,7 +66,6 @@ div[class="fas fa-money-bill-wave"],
 div[class="fas fa-child"],
 div[class="fas fa-heart"],
 div[class="fas fa-dog"] {
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +91,7 @@ i[class="fas fa-map-marker-alt"] {
   border-bottom-left-radius: 1em;
 }
 
-div[class="Search"]{
+div[class="Search"] {
   display: flex;
   flex-direction: row;
 }
@@ -122,12 +120,12 @@ input[type="submit"] {
   background-position: center;
 }
 
-div[class="Info"]{
+div[class="Info"] {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
 }
 
-label[class="Info"]{
+label[class="Info"] {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,11 +136,9 @@ label[class="Info"]{
   color: #0065fc;
 }
 
-p[class="Info"]{
+p[class="Info"] {
   margin-left: 15px;
 }
-
-
 
 .fas fa-chart-line {
   float: right;
@@ -176,13 +172,13 @@ article[class="Hébergements"] {
   flex-direction: column;
 }
 
-h2[class="Titre1"]{
+h2[class="Titre1"] {
   margin-left: 45px;
 }
 
-p[class="Afficher"]{
+p[class="Afficher"] {
   margin-left: 45px;
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .Photo1 {
@@ -213,24 +209,36 @@ aside {
   margin-left: 30px;
 }
 
-div[class="box"] {
-  width: 300px;
-  height: 170px;
-  border-radius: 1.5em;
-  color: white;
+figure[class="Pop"]{
+  display: flex;
+  position: relative;
+  width: 330px;
+  height: 150px;
+  background-color: white;
+  border: white solid 7px;
+  box-shadow: rgb(184, 184, 184) 0px 0px 9px;
+  border-radius: 1.9em;
+  
 }
-
-
 
 .Photo2 {
   width: 150px;
   height: 150px;
   border-top-left-radius: 1.5em;
   border-bottom-left-radius: 1.5em;
-  border: solid white 7px;
-  box-shadow: rgb(184, 184, 184) 0px 0px 5px;
   box-sizing: content-box;
   object-fit: cover;
+  
+}
+
+a[class="Nom"]{
+  position: absolute;
+  top: 1px; left: 155px;
+  outline: none;
+  text-decoration: none;
+  color: black;
+  font-family: Raleway;
+  font-weight: bold;
 }
 
 article[class="Activités"] {
@@ -268,19 +276,22 @@ article[class="Activités"] {
 }
 
 footer {
+  display: flex;
+  justify-content: space-around;
   background-color: #f2f2f2;
   margin-right: 0.625%;
 }
 
-.conteneur3 {
-  display: flex;
-  justify-content: space-around;
+.container{
+  column-count: 3;
+
 }
 
 a {
+  
+  display: flex;
   outline: none;
   text-decoration: none;
-  display: inline-block;
   margin-right: 0.625%;
   line-height: 2;
   color: black;
