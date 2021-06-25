@@ -209,7 +209,12 @@ aside {
   margin-left: 30px;
 }
 
-figure[class="Pop"]{
+a[class="Vignettes"]{
+  cursor: pointer;
+  margin: 0px;
+}
+
+figure[class="Pop"] {
   display: flex;
   position: relative;
   width: 330px;
@@ -218,7 +223,6 @@ figure[class="Pop"]{
   border: white solid 7px;
   box-shadow: rgb(184, 184, 184) 0px 0px 9px;
   border-radius: 1.9em;
-  
 }
 
 .Photo2 {
@@ -228,17 +232,35 @@ figure[class="Pop"]{
   border-bottom-left-radius: 1.5em;
   box-sizing: content-box;
   object-fit: cover;
-  
 }
 
-a[class="Nom"]{
+a[class="Nom"] {
   position: absolute;
-  top: 1px; left: 155px;
+  top: 1px;
+  left: 155px;
   outline: none;
   text-decoration: none;
   color: black;
   font-family: Raleway;
   font-weight: bold;
+}
+
+.C2etoiles {
+  display: flex;
+  align-content: flex-end;
+  color: #0065fc;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.C2etoiles:hover {
+}
+.C2etoiles div {
+  display: inline-block;
+  padding: 0px;
+}
+.C2etoiles div::after {
+  content: "\002605";
 }
 
 article[class="Activités"] {
@@ -282,13 +304,11 @@ footer {
   margin-right: 0.625%;
 }
 
-.container{
+.container {
   column-count: 3;
-
 }
 
 a {
-  
   display: flex;
   outline: none;
   text-decoration: none;
