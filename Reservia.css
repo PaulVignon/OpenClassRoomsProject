@@ -3,7 +3,6 @@ h2,
 h3,
 h4 {
   font-family: Raleway;
-  display: inline;
 }
 
 body {
@@ -18,7 +17,7 @@ body {
 .nav {
   font-family: Raleway;
   float: right;
-  display: inline;
+
 }
 
 ul[class="nav"] {
