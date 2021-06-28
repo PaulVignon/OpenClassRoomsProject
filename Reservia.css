@@ -10,8 +10,9 @@ body {
   font-family: Raleway, Arial, Helvetica, sans-serif;
 }
 
-.Reservia {
-  margin-right: 20px;
+header{
+  display: flex;
+  justify-content:space-between;
 }
 
 .nav {
@@ -29,6 +30,13 @@ li[class="elements"] {
   display: flex;
   flex-direction: row;
 }
+
+li[class="elements1"]{
+  display: flex;
+  flex-direction: row;
+  font-weight: bolder;
+}
+
 
 div[class="section"] {
   display: flex;
@@ -51,6 +59,7 @@ li[class="Filtres"] {
   border: #f2f2f2 solid 2px;
   border-radius: 100em;
   margin-left: 20px;
+  padding-right: 15px;
 }
 
 div[class="NomFiltre"] {
@@ -160,9 +169,15 @@ p {
   font-family: Raleway;
 }
 
-section {
-  width: auto;
+section[class="Heb"] {
+  width: 75%;
 }
+
+section[class="Pop"]{
+  width: 25%;
+}
+
+
 
 article[class="Hébergements"] {
   width: auto;
@@ -175,6 +190,7 @@ article[class="Hébergements"] {
 
 h2[class="Titre1"] {
   margin-left: 45px;
+  border-top: 30px solid transparent;
 }
 
 p[class="Afficher"] {
@@ -185,7 +201,7 @@ p[class="Afficher"] {
 figure[class="Heb"] {
   display: flex;
   position: relative;
-  width: 300px;
+  width: 360px;
   height: 250px;
   background-color: white;
   border: white solid 7px;
@@ -195,7 +211,7 @@ figure[class="Heb"] {
 
 .Photo1 {
   flex-direction: row;
-  width: 300px;
+  width: 360px;
   height: 160px;
   border-top-left-radius: 1.5em;
   border-top-right-radius: 1.5em;
@@ -237,6 +253,10 @@ div[class="Bas"] {
   justify-content: space-around;
 }
 
+div[class="section2"]{
+  width: 25%;
+}
+
 aside {
   width: min-content;
   height: 670px;
@@ -246,8 +266,12 @@ aside {
 }
 
 h2[class="Pop"] {
-  margin-bottom: 0px;
+  margin-bottom: 18px;
   margin-left: 45px;
+  margin-right: 45px;
+  border-top: 30px solid transparent;
+  display: flex;
+  justify-content: space-between;
 }
 
 i[class="fas fa-chart-line"] {
