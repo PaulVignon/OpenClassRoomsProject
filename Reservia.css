@@ -43,7 +43,6 @@ div[class="section"] {
 div[class="Filtres"] {
   display: flex;
   flex-direction: row;
-
 }
 
 ul[class="Filtres"] {
@@ -169,14 +168,18 @@ p {
   font-family: Raleway;
 }
 
-
-
 section[class="Pop"] {
   width: 25%;
 }
 
+.section {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 article[class="Hébergements"] {
   width: auto;
+  max-width: 1380px;
   margin-bottom: 40px;
   height: auto;
   background-color: #f2f2f2;
@@ -190,6 +193,7 @@ h2[class="Titre1"] {
 
 .DisplayHeb {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -332,10 +336,10 @@ span[class="Etoiles"] {
 .C2etoiles {
   color: #0065fc;
   display: inline-block;
-  cursor: pointer;
 }
 
 .C2etoiles:hover {
+  cursor: pointer;
 }
 
 .C2etoiles div {
@@ -354,7 +358,7 @@ article[class="Activités"] {
   padding-bottom: 50px;
 }
 
-.Title2{
+.Title2 {
   padding-top: 7px;
   padding-left: 8px;
   font-weight: bold;
@@ -367,7 +371,6 @@ article[class="Activités"] {
   border: solid 0px transparent;
   border-radius: 1.5em;
   box-shadow: rgb(161, 161, 161) 0px 0px 10px;
-  
 }
 
 .Vignettes2 {
@@ -379,7 +382,7 @@ article[class="Activités"] {
   box-shadow: rgb(161, 161, 161) 0px 0px 10px;
 }
 
-.Vignettes3{
+.Vignettes3 {
   width: 370px;
   height: 230px;
   background-color: white;
@@ -406,7 +409,6 @@ article[class="Activités"] {
   border: solid white 0px;
   box-sizing: content-box;
   object-fit: cover;
-
 }
 
 .Photo3_Petite {
@@ -422,6 +424,7 @@ article[class="Activités"] {
 footer {
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
   flex-wrap: wrap;
   background-color: #f2f2f2;
   margin-right: 0.625%;
