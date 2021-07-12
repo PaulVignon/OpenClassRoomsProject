@@ -7,6 +7,7 @@ h4 {
 
 body {
   margin-left: 50px;
+  margin-right: 50px;
   font-family: Raleway, Arial, Helvetica, sans-serif;
 }
 
@@ -20,32 +21,42 @@ header {
   float: right;
 }
 
-ul[class="nav"] {
+.nav1 {
   display: flex;
   justify-content: space-around;
 }
 
-li[class="elements"] {
+.elements1 {
   display: flex;
   flex-direction: row;
 }
 
-li[class="elements1"] {
+.elements2 {
   display: flex;
   flex-direction: row;
   font-weight: bolder;
+}
+
+.Inscription {
+  color: #0065fc;
+}
+
+.nav4:hover {
+  color: #0065fc;
+  border-top: solid 2px #0065fc;
+  padding-top: 10px;
 }
 
 div[class="section"] {
   display: flex;
 }
 
-div[class="Filtres"] {
+.div_Filtres {
   display: flex;
   flex-direction: row;
 }
 
-ul[class="Filtres"] {
+.ul_Filtres {
   color: #0065fc;
   display: flex;
   justify-content: space-around;
@@ -53,7 +64,7 @@ ul[class="Filtres"] {
   flex-wrap: wrap;
 }
 
-li[class="Filtres"] {
+.li_Filtres {
   display: flex;
   border: #f2f2f2 solid 2px;
   border-radius: 100em;
@@ -61,7 +72,11 @@ li[class="Filtres"] {
   padding-right: 15px;
 }
 
-div[class="NomFiltre"] {
+.li_Filtres:hover{
+  background-color: #83b5ff;
+}
+
+.NomFiltre {
   display: flex;
 }
 
@@ -127,12 +142,12 @@ input[type="submit"] {
   background-position: center;
 }
 
-div[class="Info"] {
+.div_Info {
   display: flex;
   flex-direction: row;
 }
 
-label[class="Info"] {
+.label_Info {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,7 +158,7 @@ label[class="Info"] {
   color: #0065fc;
 }
 
-p[class="Info"] {
+.p_Info {
   margin-left: 15px;
 }
 
@@ -168,7 +183,7 @@ p {
   font-family: Raleway;
 }
 
-section[class="Pop"] {
+.section_Pop {
   width: 25%;
 }
 
@@ -179,7 +194,7 @@ section[class="Pop"] {
 
 article[class="Hébergements"] {
   width: auto;
-  max-width: 1380px;
+  max-width: 1340px;
   margin-bottom: 40px;
   height: auto;
   background-color: #f2f2f2;
