@@ -28,6 +28,7 @@ header {
 
 .nav1 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 15px;
 
@@ -35,7 +36,9 @@ header {
 
 .elements1 {
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
+  margin-right: 50px;
 }
 
 .elements2 {
@@ -144,11 +147,16 @@ input[type="submit"] {
   cursor: pointer;
 }
 
+input[type="submit"]:hover {
+  transition: transform .5s ease;
+  transform: scale(1.09);
+}
+
 .fas fa-map-marker-alt {
   height: 40px;
   width: 40px;
   display: inline-block;
-  float: left;
+  float: none;
   width: min-content;
   background-position: center;
 }
@@ -174,7 +182,7 @@ input[type="submit"] {
 }
 
 .fas fa-chart-line {
-  float: right;
+  float: none;
   justify-content: right;
   display: inline-block;
 }
@@ -223,15 +231,22 @@ h2[class="Titre1"] {
   flex-wrap: wrap;
 }
 
+.aff {
+  max-width: 200px;
+}
+
 .Afficher11 {
+  display: flex;
   margin-left: 45px;
   font-weight: bold;
   padding-bottom: 20px;
+  padding-right: 0px;
 }
 
 .Afficher11:hover {
   transition: transform .5s ease;
-  transform: scale(1.01);;
+  transform: scale(1.05);
+  font-weight: 800;
 }
 
 .Heb10 {
@@ -250,7 +265,7 @@ h2[class="Titre1"] {
   border-color: #83b5ff;
   box-shadow: #5c5c5c 0px 0px 15px;
   transition: transform .5s ease;
-  transform: scale(1.09);
+  transform: scale(1.05);
 }
 
 .Photo1 {
@@ -344,7 +359,7 @@ a[class="Vignettes"] {
   border-color: #83b5ff;
   box-shadow: #5c5c5c 0px 0px 15px;
   transition: transform .5s ease;
-  transform: scale(1.09);
+  transform: scale(1.05);
 }
 
 .Photo2 {
@@ -397,11 +412,12 @@ span[class="Etoiles"] {
   content: "\002605";
 }
 
-article[class="Activités"] {
+.Activités10 {
   display: flex;
   width: 100%;
   justify-content: center;
   flex-wrap: wrap;
+  flex-basis: 100%;
   padding-bottom: 50px;
 }
 
@@ -420,6 +436,14 @@ article[class="Activités"] {
   box-shadow: rgb(161, 161, 161) 0px 0px 10px;
 }
 
+.Vignettes1:hover {
+  background-color: #83b5ff;
+  border-color: #83b5ff;
+  box-shadow: #5c5c5c 0px 0px 15px;
+  transition: transform .5s ease;
+  transform: scale(1.05);
+}
+
 .Vignettes2 {
   width: 370px;
   height: 350px;
@@ -429,6 +453,14 @@ article[class="Activités"] {
   box-shadow: rgb(161, 161, 161) 0px 0px 10px;
 }
 
+.Vignettes2:hover {
+  background-color: #83b5ff;
+  border-color: #83b5ff;
+  box-shadow: #5c5c5c 0px 0px 15px;
+  transition: transform .5s ease;
+  transform: scale(1.05);
+}
+
 .Vignettes3 {
   width: 370px;
   height: 230px;
@@ -436,6 +468,14 @@ article[class="Activités"] {
   border: solid 0px transparent;
   border-radius: 1.5em;
   box-shadow: rgb(161, 161, 161) 0px 0px 10px;
+}
+
+.Vignettes3:hover {
+  background-color: #83b5ff;
+  border-color: #83b5ff;
+  box-shadow: #5c5c5c 0px 0px 15px;
+  transition: transform .5s ease;
+  transform: scale(1.05);
 }
 
 .Photo3_Grande {
