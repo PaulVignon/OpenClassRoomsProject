@@ -8,12 +8,17 @@ h4 {
 body {
   margin-left: 50px;
   margin-right: 50px;
+  margin-top: 0px;
   font-family: Raleway, Arial, Helvetica, sans-serif;
 }
 
 header {
   display: flex;
   justify-content: space-between;
+}
+
+.Reservia1 {
+  margin-top: 15px;
 }
 
 .nav {
@@ -24,6 +29,8 @@ header {
 .nav1 {
   display: flex;
   justify-content: space-around;
+  margin-top: 15px;
+
 }
 
 .elements1 {
@@ -44,7 +51,8 @@ header {
 .nav4:hover {
   color: #0065fc;
   border-top: solid 2px #0065fc;
-  padding-top: 10px;
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 div[class="section"] {
@@ -74,15 +82,18 @@ div[class="section"] {
 
 .li_Filtres:hover{
   background-color: #83b5ff;
+  transition: transform .5s ease;
+  transform: scale(1.09);
 }
 
 .NomFiltre {
   display: flex;
+  align-items: center;
 }
 
 a {
   margin: 4px 10px;
-}
+} 
 
 div[class="fas fa-money-bill-wave"],
 div[class="fas fa-child"],
@@ -192,7 +203,7 @@ p {
   flex-wrap: wrap;
 }
 
-article[class="Hébergements"] {
+.Hébergements10 {
   width: auto;
   max-width: 1340px;
   margin-bottom: 40px;
@@ -212,13 +223,18 @@ h2[class="Titre1"] {
   flex-wrap: wrap;
 }
 
-p[class="Afficher"] {
+.Afficher11 {
   margin-left: 45px;
   font-weight: bold;
   padding-bottom: 20px;
 }
 
-figure[class="Heb"] {
+.Afficher11:hover {
+  transition: transform .5s ease;
+  transform: scale(1.01);;
+}
+
+.Heb10 {
   display: flex;
   position: relative;
   width: 350px;
@@ -227,6 +243,14 @@ figure[class="Heb"] {
   border: white solid 7px;
   box-shadow: rgb(184, 184, 184) 0px 0px 9px;
   border-radius: 1.9em;
+}
+
+.Heb10:hover{
+  background-color: #83b5ff;
+  border-color: #83b5ff;
+  box-shadow: #5c5c5c 0px 0px 15px;
+  transition: transform .5s ease;
+  transform: scale(1.09);
 }
 
 .Photo1 {
@@ -304,7 +328,7 @@ a[class="Vignettes"] {
   margin: 0px;
 }
 
-figure[class="Pop"] {
+.Pop10 {
   display: flex;
   position: relative;
   width: 330px;
@@ -313,6 +337,14 @@ figure[class="Pop"] {
   border: white solid 7px;
   box-shadow: rgb(184, 184, 184) 0px 0px 9px;
   border-radius: 1.9em;
+}
+
+.Pop10:hover {
+  background-color: #83b5ff;
+  border-color: #83b5ff;
+  box-shadow: #5c5c5c 0px 0px 15px;
+  transition: transform .5s ease;
+  transform: scale(1.09);
 }
 
 .Photo2 {
@@ -458,7 +490,10 @@ a {
   outline: none;
   text-decoration: none;
   margin-right: 0.625%;
-  line-height: 2;
   color: black;
   font-family: Raleway;
+}
+
+.foot1 {
+  padding-top: 15px;
 }
