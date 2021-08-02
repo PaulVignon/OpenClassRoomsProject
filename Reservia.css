@@ -20,7 +20,13 @@ h4 {
 
   .Hébergements10 {
     margin: 0px;
+    padding-left: 0em;
     max-width: 370px;
+  }
+
+  .Heb10 {
+    margin-left: 2px;
+    margin-right: 2px;
   }
 }
 
