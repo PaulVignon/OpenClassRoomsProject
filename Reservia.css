@@ -5,6 +5,13 @@ h4 {
   font-family: Raleway;
 }
 
+@media screen and (max-with: 480px)
+{
+  
+}
+
+
+
 body {
   margin-left: 50px;
   margin-right: 50px;
@@ -30,7 +37,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 15px;
+  margin-top: 0px;
+  padding-top: 10px;
 
 }
 
@@ -54,11 +62,11 @@ header {
 .nav4:hover {
   color: #0065fc;
   border-top: solid 2px #0065fc;
-  padding-top: 0px;
   margin-top: 0px;
+  padding-top: 10px;
 }
 
-div[class="section"] {
+div.section {
   display: flex;
 }
 
@@ -98,10 +106,10 @@ a {
   margin: 4px 10px;
 } 
 
-div[class="fas fa-money-bill-wave"],
-div[class="fas fa-child"],
-div[class="fas fa-heart"],
-div[class="fas fa-dog"] {
+div.fas.fa-money-bill-wave,
+div.fas.fa-child,
+div.fas.fa-heart,
+div.fas.fa-dog {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,7 +124,7 @@ label {
   font-weight: bold;
 }
 
-i[class="fas fa-map-marker-alt"] {
+i.fas.fa-map-marker-alt {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,7 +144,7 @@ i[class="fas fa-map-marker-alt"] {
   height: 40px;
 }
 
-input[type="submit"] {
+.Rechercher {
   background-color: #0065fc;
   color: white;
   border-top-right-radius: 1em;
@@ -147,12 +155,12 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+.Rechercher:hover {
   transition: transform .5s ease;
   transform: scale(1.09);
 }
 
-.fas fa-map-marker-alt {
+.fas.fa-map-marker-alt {
   height: 40px;
   width: 40px;
   display: inline-block;
@@ -181,7 +189,7 @@ input[type="submit"]:hover {
   margin-left: 15px;
 }
 
-.fas fa-chart-line {
+i.fas.fa-chart-line {
   float: none;
   justify-content: right;
   display: inline-block;
@@ -220,7 +228,7 @@ p {
   border-radius: 2em;
 }
 
-h2[class="Titre1"] {
+h2.Titre1 {
   margin-left: 45px;
   border-top: 30px solid transparent;
 }
@@ -232,7 +240,7 @@ h2[class="Titre1"] {
 }
 
 .aff {
-  max-width: 200px;
+  max-width: 12%;
 }
 
 .Afficher11 {
@@ -278,7 +286,7 @@ h2[class="Titre1"] {
   object-fit: cover;
 }
 
-a[class="Nom1"] {
+a.Nom1 {
   position: absolute;
   top: 165px;
   left: 10px;
@@ -290,13 +298,13 @@ a[class="Nom1"] {
   line-height: 20px;
 }
 
-a[class="Definition1"] {
+a.Definition1 {
   position: absolute;
   top: 187px;
   left: 10px;
 }
 
-span[class="Etoiles1"] {
+span.Etoiles1 {
   position: absolute;
   top: 220px;
   left: 20px;
