@@ -5,6 +5,24 @@ h4 {
   font-family: Raleway;
 }
 
+@media only screen and (max-width:800px){
+  aside{
+    margin-left: 0px;
+    max-width: 370%;
+    padding: none;
+  }
+
+  body{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .Hébergements10 {
+    margin: 0px;
+    max-width: 370px;
+  }
+}
+
 body {
   margin-left: 50px;
   margin-right: 50px;
@@ -326,16 +344,7 @@ aside {
   margin-left: 30px;
 }
 
-@media only screen and (max-width:800px){
-  aside{
-    margin-left: 0px;
-  }
 
-  body{
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
 
 h2[class="Pop"] {
   margin-bottom: 18px;
