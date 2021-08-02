@@ -5,14 +5,15 @@ h4 {
   font-family: Raleway;
 }
 
-@media only screen and (max-width:800px){
-  aside{
+@media screen and (max-width: 500px) {
+  aside {
     margin-left: 0px;
     max-width: 370%;
-    padding: none;
+    padding-left: 0px;
+    align-items: baseline;
   }
 
-  body{
+  body {
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -50,7 +51,6 @@ header {
   justify-content: space-around;
   margin-top: 0px;
   padding-top: 10px;
-
 }
 
 .elements1 {
@@ -102,9 +102,9 @@ div.section {
   padding-right: 15px;
 }
 
-.li_Filtres:hover{
+.li_Filtres:hover {
   background-color: #83b5ff;
-  transition: transform .5s ease;
+  transition: transform 0.5s ease;
   transform: scale(1.09);
 }
 
@@ -115,7 +115,7 @@ div.section {
 
 a {
   margin: 4px 10px;
-} 
+}
 
 div.fas.fa-money-bill-wave,
 div.fas.fa-child,
@@ -167,7 +167,7 @@ i.fas.fa-map-marker-alt {
 }
 
 .Rechercher:hover {
-  transition: transform .5s ease;
+  transition: transform 0.5s ease;
   transform: scale(1.09);
 }
 
@@ -200,7 +200,7 @@ i.fas.fa-map-marker-alt {
   margin-left: 15px;
 }
 
-i.fas.fa-chart-line {
+.fas.fa-chart-line {
   float: none;
   justify-content: right;
   display: inline-block;
@@ -263,7 +263,7 @@ h2.Titre1 {
 }
 
 .Afficher11:hover {
-  transition: transform .5s ease;
+  transition: transform 0.5s ease;
   transform: scale(1.05);
   font-weight: 800;
 }
@@ -279,11 +279,11 @@ h2.Titre1 {
   border-radius: 1.9em;
 }
 
-.Heb10:hover{
+.Heb10:hover {
   background-color: #83b5ff;
   border-color: #83b5ff;
   box-shadow: #5c5c5c 0px 0px 15px;
-  transition: transform .5s ease;
+  transition: transform 0.5s ease;
   transform: scale(1.05);
 }
 
@@ -344,8 +344,6 @@ aside {
   margin-left: 30px;
 }
 
-
-
 h2[class="Pop"] {
   margin-bottom: 18px;
   margin-left: 45px;
@@ -379,7 +377,7 @@ a[class="Vignettes"] {
   background-color: #83b5ff;
   border-color: #83b5ff;
   box-shadow: #5c5c5c 0px 0px 15px;
-  transition: transform .5s ease;
+  transition: transform 0.5s ease;
   transform: scale(1.05);
 }
 
@@ -461,7 +459,7 @@ span[class="Etoiles"] {
   background-color: #83b5ff;
   border-color: #83b5ff;
   box-shadow: #5c5c5c 0px 0px 15px;
-  transition: transform .5s ease;
+  transition: transform 0.5s ease;
   transform: scale(1.05);
 }
 
@@ -478,7 +476,7 @@ span[class="Etoiles"] {
   background-color: #83b5ff;
   border-color: #83b5ff;
   box-shadow: #5c5c5c 0px 0px 15px;
-  transition: transform .5s ease;
+  transition: transform 0.5s ease;
   transform: scale(1.05);
 }
 
@@ -495,7 +493,7 @@ span[class="Etoiles"] {
   background-color: #83b5ff;
   border-color: #83b5ff;
   box-shadow: #5c5c5c 0px 0px 15px;
-  transition: transform .5s ease;
+  transition: transform 0.5s ease;
   transform: scale(1.05);
 }
 
