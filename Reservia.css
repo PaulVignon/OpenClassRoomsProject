@@ -5,38 +5,7 @@ h4 {
   font-family: Raleway;
 }
 
-@media screen and (max-width: 500px) {
-  
-  body {
-    margin-left: 1px;
-    margin-right: 1px;
-  }
 
-
-  aside {
-    margin-left: 0px;
-    max-width: auto;
-    padding-left: 0px;
-    align-items: baseline;
-  }
-
-  
-
-  .Hébergements10 {
-    margin: 0px;
-    padding-left: 0em;
-    max-width: auto;
-  }
-
-  .Heb10 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  .Pop10{
-    margin-left: 12px;
-  }
-}
 
 body {
   margin-left: 50px;
@@ -47,48 +16,25 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .Reservia1 {
   margin-top: 15px;
 }
 
-.nav {
-  font-family: Raleway;
-  float: right;
+.spacer{
+  flex-grow: 1;
 }
 
-.nav1 {
+.nav_bottom{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 0px;
-  padding-top: 10px;
+  flex-grow: 1;
+  text-align: center;
 }
 
-.elements1 {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  margin-right: 50px;
-}
-
-.elements2 {
-  display: flex;
-  flex-direction: row;
-  font-weight: bolder;
-}
-
-.Inscription {
-  color: #0065fc;
-}
-
-.nav4:hover {
-  color: #0065fc;
-  border-top: solid 2px #0065fc;
-  margin-top: 0px;
-  padding-top: 10px;
+.nav_bottom > a{
+  flex-grow: 1;
 }
 
 div.section {
@@ -569,4 +515,44 @@ a {
 
 .foot1 {
   padding-top: 15px;
+}
+
+
+@media screen and (max-width: 500px) {
+  body {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .section{
+    display: flex;
+    order: 2;
+  }
+
+  aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0px;
+    max-width: auto;
+    padding-left: 0px;
+  }
+
+  .Hébergements10 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0px;
+    max-width: auto;
+    padding-left: 0px;
+  }
+
+  .Heb10 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .Pop10 {
+    margin-left: 12px;
+  }
 }
