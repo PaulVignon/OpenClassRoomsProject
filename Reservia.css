@@ -6,27 +6,35 @@ h4 {
 }
 
 @media screen and (max-width: 500px) {
+  
+  body {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+
+
   aside {
     margin-left: 0px;
-    max-width: 370%;
+    max-width: auto;
     padding-left: 0px;
     align-items: baseline;
   }
 
-  body {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
+  
 
   .Hébergements10 {
     margin: 0px;
     padding-left: 0em;
-    max-width: 370px;
+    max-width: auto;
   }
 
   .Heb10 {
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .Pop10{
+    margin-left: 12px;
   }
 }
 
