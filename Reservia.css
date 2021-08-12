@@ -526,7 +526,12 @@ a {
 
   .div_Filtres{
     display: flex;
-    justify-content: flex-start;
+    word-wrap: break-word;
+  }
+
+  .ul_Filtres{
+    display: flex;
+    flex-direction: column;
   }
 
   .section{
@@ -585,13 +590,12 @@ a {
 
   .section_Pop{
     justify-content: center;
+    flex-grow: 1;
   }
 
   .Pop10 {
     display: flex;
-    flex-grow: 1;
-    margin-left: auto;
-    margin-right: auto;
+  
   }
 
   .Activités10{
