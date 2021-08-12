@@ -531,6 +531,7 @@ a {
 
   .section{
     display: flex;
+    justify-content: center;
     margin: 0px;
   }
 
@@ -551,7 +552,6 @@ a {
     justify-content: center;
     margin-left: 0px;
     margin-right: 0px;
-    flex-grow: 1;
     padding-left: 0px;
   }
 
@@ -564,9 +564,27 @@ a {
     padding-left: 0px;
   }
 
+.Photo1{
+  flex-direction: row;
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+  box-sizing: content-box;
+  object-fit: cover;
+  width: 100%;
+
+}
+
   .Heb10 {
-    margin-left: 0px;
-    margin-right: 0px;
+    width: 90%;
+
+  }
+
+  .DisplayHeb {
+    justify-content: center;
+  }
+
+  .section_Pop{
+    justify-content: center;
   }
 
   .Pop10 {
@@ -574,5 +592,25 @@ a {
     flex-grow: 1;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .Activités10{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-right: 0px;
+  }
+
+  .Vignettes1,
+  .Vignettes2,
+  .Vignettes3{
+    margin-right: 0px;
+    width: 80%;
+  }
+
+  .Photo3_Grande,
+  .Photo3_Moyenne,
+  .Photo3_Petite{
+    width: 100%;
   }
 }
