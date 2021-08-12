@@ -29,7 +29,7 @@ header {
 
 .nav_bottom{
   display: flex;
-  flex-grow: 1;
+  width: 300px;
   text-align: center;
 }
 
@@ -518,14 +518,30 @@ a {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 520px) {
   body {
     margin-left: 0px;
     margin-right: 0px;
   }
 
+  .div_Filtres{
+    display: flex;
+    justify-content: flex-start;
+  }
+
   .section{
     display: flex;
+    margin: 0px;
+  }
+
+  .Titres1{
+    margin: 0px;
+  }
+
+  .nav_bottom,
+  .nav_top{
+    display: flex;
+    flex-wrap: wrap;
     order: 2;
   }
 
@@ -534,7 +550,8 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     margin-left: 0px;
-    max-width: auto;
+    margin-right: 0px;
+    flex-grow: 1;
     padding-left: 0px;
   }
 
@@ -553,6 +570,9 @@ a {
   }
 
   .Pop10 {
-    margin-left: 12px;
+    display: flex;
+    flex-grow: 1;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
