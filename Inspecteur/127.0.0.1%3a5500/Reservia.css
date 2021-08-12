@@ -198,7 +198,7 @@ p {
 }
 
 h2.Titre1 {
-  margin-left: 45px;
+  /* margin-left: 45px; */
   border-top: 30px solid transparent;
 }
 
