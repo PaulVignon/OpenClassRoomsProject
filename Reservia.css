@@ -590,12 +590,13 @@ a {
 
   .section_Pop{
     justify-content: center;
-    flex-grow: 1;
   }
 
   .Pop10 {
     display: flex;
-  
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .Activités10{
@@ -603,7 +604,6 @@ a {
     justify-content: center;
     width: 90%;
     margin-right: 0px;
-    margin-left: 0px;
   }
 
   .Vignettes1,
