@@ -526,6 +526,10 @@ a {
     margin-right: 0px;
   }
 
+  .Reservia1{
+    margin-left: 10px;
+  }
+
   nav {
     display: flex;
   }
@@ -557,6 +561,7 @@ a {
   .nav_top {
     margin-top: 20px;
     font-weight: bold;
+    margin-right: 10px;
   }
 
   .nav_top > a {
