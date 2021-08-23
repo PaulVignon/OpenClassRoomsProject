@@ -35,6 +35,10 @@ header {
   flex-grow: 1;
 }
 
+.nav_bottom > a :hover {
+  background-color: #0065fc;
+}
+
 .nav_bottom,
 .nav_top {
   margin-top: 20px;
@@ -526,7 +530,7 @@ a {
     margin-right: 0px;
   }
 
-  .Reservia1{
+  .Reservia1 {
     margin-left: 10px;
   }
 
