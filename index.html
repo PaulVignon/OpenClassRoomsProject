@@ -40,12 +40,12 @@
       <div class="spacer"></div>
 
       <!-- Naviguation -->
-      <nav class="nav_bottom">
+      <nav class="nav_bottom nav_commun">
         <a href="#Titre1">Hébergements</a>
         <a href="#Titre2">Activités</a>
       </nav>
 
-      <nav class="nav_top">
+      <nav class="nav_top nav_commun">
         <a href="#">S'inscrire</a>
       </nav>
     </header>
@@ -60,13 +60,14 @@
         <i class="fas fa-map-marker-alt" alt="Logo position"> </i>
       </label>
       <input
+        class="search_bar"
         type="search"
         id="site-search"
         name="q"
         aria-label="Search through site content"
       />
 
-      <input type="submit" class="Rechercher" value="Rechercher" />
+      <input type="submit" class="Rechercher" id="search_button" value="Rechercher" />
     </div>
     <br />
 
@@ -123,7 +124,6 @@
           <h2 class="Titre1" id="Titre1">Hébergements à Marseille</h2>
 
           <div class="DisplayHeb">
-            <a class="Vignettes" href="#">
               <figure class="Heb10" href="#">
                 <img
                   class="Photo1"
@@ -131,9 +131,9 @@
                   alt="Photo en haut à gauche"
                 />
                 <figcaption>
-                  <a class="Nom1" href="#">Auberge la Cannebière</a>
+                  <h4 class="Nom1" href="#">Auberge la Cannebière</h4>
                   <a class="Definition1" href="#">Nuit à partir de 25€</a>
-                  <span class="Etoiles1">
+                  <span class="Etoiles">
                     <span class="C2etoiles">
                       <div></div>
                     </span>
@@ -166,9 +166,9 @@
                   alt="Photo en haut au milieu"
                 />
                 <figcaption>
-                  <a class="Nom1" href="*">Hôtel du port</a>
+                  <h4 class="Nom1" href="*">Hôtel du port</h4>
                   <a class="Definition1" href="#">Nuit à partir de 52€</a>
-                  <span class="Etoiles1">
+                  <span class="Etoiles">
                     <span class="C2etoiles">
                       <div></div>
                     </span>
@@ -201,9 +201,9 @@
                   alt="Photo en haut a droite"
                 />
                 <figcaption>
-                  <a class="Nom1" href="#">Hôtel Les mouettes</a>
+                  <h4 class="Nom1" href="#">Hôtel Les mouettes</h4>
                   <a class="Definition1" href="*">Nuit à partir de 76€</a>
-                  <span class="Etoiles1">
+                  <span class="Etoiles">
                     <span class="C2etoiles">
                       <div></div>
                     </span>
@@ -236,9 +236,9 @@
                   alt="Photo en bas à gauche"
                 />
                 <figcaption>
-                  <a class="Nom1" href="#">Hôtel de la mer</a>
+                  <h4 class="Nom1" href="#">Hôtel de la mer</h4>
                   <a class="Definition1" href="#">Nuit à partir de 46€</a>
-                  <span class="Etoiles1">
+                  <span class="Etoiles">
                     <span class="C2etoiles">
                       <div></div>
                     </span>
@@ -271,9 +271,9 @@
                   alt="Photo en bas au milieu"
                 />
                 <figcaption>
-                  <a class="Nom1" href="#">Auberge Le Panier</a>
+                  <h4 class="Nom1" href="#">Auberge Le Panier</h4>
                   <a class="Definition1" href="#">Nuit à partir de 23€</a>
-                  <span class="Etoiles1">
+                  <span class="Etoiles">
                     <span class="C2etoiles">
                       <div></div>
                     </span>
@@ -306,9 +306,9 @@
                   alt="Photo en bas a droite"
                 />
                 <figcaption>
-                  <a class="Nom1" href="#">Hôtel Chez Amina</a>
+                  <h4 class="Nom1" href="#">Hôtel Chez Amina</h4>
                   <a class="Definition1" href="#">Nuit à partir de 96€</a>
-                  <span class="Etoiles1">
+                  <span class="Etoiles">
                     <span class="C2etoiles">
                       <div></div>
                     </span>
@@ -333,11 +333,11 @@
               </figure>
             </a>
           </div>
-
           <div class="aff">
             <a class="Afficher11" href="#">Afficher plus</a>
-          </div>
+          </div> 
         </article>
+          
       </section>
 
       <div class="section2">
@@ -356,10 +356,10 @@
                   alt="Photo en haut"
                 />
                 <figcaption>
-                  <a class="Nom" href="*">Hôtel Le soleil du matin</a>
-                  <a class="Definition" href="*">Nuit à partir de 128€</a>
+                  <h4 class="Pop_Nom" href="*">Hôtel Le soleil du matin</h4>
+                  <a class="Pop_Definition" href="*">Nuit à partir de 128€</a>
 
-                  <span class="Etoiles">
+                  <span class="Pop_Etoiles">
                     <span class="C2etoiles">
                       <div></div>
                     </span>
@@ -388,9 +388,9 @@
                   alt="Photo au milieu"
                 />
                 <figcaption>
-                  <a class="Nom" href="*">Au coeur de l'eau Chambres d'hôtes</a>
-                  <a class="Definition" href="*">Nuit à partir de 71€</a>
-                  <span class="Etoiles">
+                  <h4 class="Pop_Nom" href="*">Au coeur de l'eau Chambres d'hôtes</h4>
+                  <a class="Pop_Definition" href="*">Nuit à partir de 71€</a>
+                  <span class="Pop_Etoiles">
                     <span class="C2etoiles">
                       <div></div>
                     </span>
@@ -419,9 +419,9 @@
                   alt="Photo en bas"
                 />
                 <figcaption>
-                  <a class="Nom" href="*">Hôtel Tout bleu et Blanc</a>
-                  <a class="Definition" href="*">Nuit à partir de 68€</a>
-                  <span class="Etoiles">
+                  <h4 class="Pop_Nom" href="*">Hôtel Tout bleu et Blanc</h4>
+                  <a class="Pop_Definition" href="*">Nuit à partir de 68€</a>
+                  <span class="Pop_Etoiles">
                     <span class="C2etoiles">
                       <div></div>
                     </span>

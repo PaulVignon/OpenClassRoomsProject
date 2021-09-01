@@ -31,17 +31,20 @@ header {
   text-align: center;
 }
 
-.nav_bottom > a {
+.nav_commun > a {
+  padding: 20px;
+  border-top: 2px solid transparent;
+  margin: 0;
   flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
 }
 
-.nav_bottom > a :hover {
-  background-color: #0065fc;
-}
-
-.nav_bottom,
-.nav_top {
-  margin-top: 20px;
+.nav_commun > a:hover,
+.nav_commun > a:focus {
+  border-color: #0065fc;
 }
 
 div.section {
@@ -200,7 +203,7 @@ p {
 .Hébergements10 {
   width: auto;
   max-width: 1340px;
-  margin-bottom: 40px;
+  margin-bottom: 0;
   height: auto;
   background-color: #f2f2f2;
   border-radius: 2em;
@@ -237,6 +240,7 @@ h2.Titre1 {
 
 .Heb10 {
   display: flex;
+  flex-direction: column;
   position: relative;
   width: 350px;
   height: 250px;
@@ -264,22 +268,12 @@ h2.Titre1 {
   object-fit: cover;
 }
 
-a.Nom1 {
-  position: absolute;
-  top: 165px;
-  left: 10px;
-  outline: none;
-  text-decoration: none;
-  color: black;
-  font-family: Raleway;
-  font-weight: bold;
-  line-height: 20px;
-}
-
-a.Definition1 {
-  position: absolute;
-  top: 187px;
-  left: 10px;
+.Nom1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
 }
 
 span.Etoiles1 {
@@ -357,16 +351,17 @@ a[class="Vignettes"] {
   object-fit: cover;
 }
 
-a[class="Nom"] {
-  position: absolute;
-  top: 1px;
-  left: 155px;
-  outline: none;
-  text-decoration: none;
-  color: black;
-  font-family: Raleway;
-  font-weight: bold;
-  line-height: 20px;
+figcaption {
+  display: flex;
+  flex-direction: column;
+}
+
+.Pop_Nom {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 2px;
 }
 
 a[class="Definition"] {
@@ -375,15 +370,23 @@ a[class="Definition"] {
   left: 155px;
 }
 
-span[class="Etoiles"] {
-  position: absolute;
-  top: 125px;
-  left: 163px;
+.Etoiles {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.Pop_Etoiles {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: 45px;
 }
 
 .C2etoiles {
   color: #0065fc;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
 }
 
 .C2etoiles:hover {
@@ -391,7 +394,8 @@ span[class="Etoiles"] {
 }
 
 .C2etoiles div {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   padding: 0px;
 }
 .C2etoiles div::after {
@@ -528,6 +532,8 @@ a {
   body {
     margin-left: 0px;
     margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .Reservia1 {
@@ -536,6 +542,23 @@ a {
 
   nav {
     display: flex;
+  }
+
+  .Search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .search_bar {
+    height: 50px;
+    width: 100%;
+  }
+
+  .Rechercher {
+    height: 50px;
+    width: 50px;
+    border-radius: 1em;
   }
 
   .div_Filtres {
@@ -550,6 +573,10 @@ a {
     align-items: flex-start;
   }
 
+  .li_Filtres {
+    margin-bottom: 10px;
+  }
+
   .section {
     display: flex;
     justify-content: center;
@@ -558,8 +585,15 @@ a {
     margin: 0px;
   }
 
-  h2.Titres1 {
+  .Heb {
+    order: 2;
+  }
+
+  h2.Titre1 {
+    display: flex;
+    flex-direction: row;
     margin: 0px;
+    margin-bottom: 20px;
   }
 
   .nav_top {
@@ -586,22 +620,72 @@ a {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 20px;
+    border-top: none;
     border-bottom: #f2f2f2 solid 2px;
     line-height: 2em;
-  }
-
-  .nav_bottom > a :hover {
-    border-bottom: #0065fc solid 2px;
   }
 
   aside {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
+    height: auto;
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 0px;
+    padding-bottom: 40px;
+    border-radius: 0em;
+  }
+
+  .Pop10 {
+    display: flex;
+    width: 90%;
+    height: 120px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-radius: 1.3em;
+  }
+
+  h2.Pop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 320px;
+    margin: 0;
+  }
+
+  .Pop {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .Photo2 {
+    width: 120px;
+    height: 120px;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+  }
+
+  .Nom {
+    position: relative;
+    display: flex;
+  }
+
+  .Etoiles {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Pop_Etoiles {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30%;
+    align-content: flex-end;
   }
 
   .Hébergements10 {
@@ -611,6 +695,7 @@ a {
     margin-left: 0px;
     max-width: auto;
     padding-left: 0px;
+    background-color: white;
   }
 
   .Photo1 {
@@ -620,16 +705,38 @@ a {
     box-sizing: content-box;
     object-fit: cover;
     width: 100%;
+    height: 115px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
   }
 
   .Heb10 {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    margin-bottom: 15px;
     width: 90%;
+    height: 200px;
+    border-radius: 1.5em;
   }
 
   .DisplayHeb {
     justify-content: center;
+  }
+
+  .aff {
+    display: flex;
+    flex-direction: row;
+
+    margin: 0;
+    margin-right: 230px;
+    max-width: 100%;
+  }
+
+  .aff > a {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
   }
 
   .section_Pop {
@@ -637,30 +744,42 @@ a {
     width: 100%;
   }
 
-  .Pop10 {
-    display: flex;
-    width: 290px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
   .Activités10 {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    width: 100%;
+    margin: 0;
     margin-right: 0px;
   }
 
   .Vignettes1,
   .Vignettes2,
   .Vignettes3 {
-    margin-right: 0px;
-    width: 80%;
+    margin: 0;
+    width: 95%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .colonne1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 
   .Photo3_Grande,
   .Photo3_Moyenne,
   .Photo3_Petite {
     width: 100%;
+    height: 150px;
+    margin: 0;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 }
