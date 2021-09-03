@@ -541,8 +541,8 @@ a {
   body {
     margin-left: 0px;
     margin-right: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .Reservia1 {
@@ -723,10 +723,10 @@ a {
   }
 
   .Pop_Etoiles {
-    position: absolute;
     display: flex;
+    position: absolute;
+    bottom: 5px;
     flex-direction: row;
-    margin-top: 30%;
     align-content: flex-end;
   }
 
