@@ -537,7 +537,7 @@ a {
   padding-top: 15px;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 600px) {
   body {
     margin-left: 0px;
     margin-right: 0px;
