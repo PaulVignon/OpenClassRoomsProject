@@ -73,7 +73,7 @@ presentation:
 
 ## 4 - Appliquer le Responsive
 
-<img src="Projet_2\Projet+2+-+Reservia+FR\Projet_2-Reservia\images\Soutenance\Imp_ecran_responsive_css.jpg">
+<img src="Projet_2\Projet+2+-+Reservia+FR\Projet_2-Reservia\images\Soutenance\Imp_ecran_responsive_css.jpg" >
 
 <!-- slide -->
 
@@ -93,7 +93,7 @@ presentation:
 
 # 2 - Responsive
 
-<img src="Projet_2\Projet+2+-+Reservia+FR\Projet_2-Reservia\images\Soutenance\Imp_ecran_page_web_phone.png">
+<img src="Projet_2\Projet+2+-+Reservia+FR\Projet_2-Reservia\images\Soutenance\Imp_ecran_page_web_phone.png" height= "3500">
 
 <!-- slide -->
 
