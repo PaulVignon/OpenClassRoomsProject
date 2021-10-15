@@ -121,4 +121,4 @@ presentation:
 
 <!-- slide -->
 
-# FIN
+# Questions / discussion
