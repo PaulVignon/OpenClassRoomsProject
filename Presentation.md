@@ -13,80 +13,112 @@ presentation:
 
 <!-- slide -->
 
-### Paul Vignon
+### **Paul Vignon**
 
 # Projet 2
 
-## Reservia
+<img src="Projet_2\Projet+2+-+Reservia+FR\Projet_2-Reservia\images\logo\reservia@3x.png">
 
 <!-- slide -->
 
 # Partie 1
-## Présentation du projet fini
+
+## Les différentes étapes
+
+- Analyser la structure de la page
+
+- Etablir la structure HTML de la page
+
+- Appliquer le CSS
+
+- Appliquer le Responsive
+
+- Mise à jour de la structure HTML
+
+- Ajustements du CSS au cas par cas
 
 <!-- slide -->
 
-<img src="Projet_2/Projet+2+-+Reservia+FR/Projet_2-Reservia/images/Soutenance/Imp_ecran_page_web.png" style="height:auto;">
+# Partie 2
 
-<!-- slide -->
+## Les Difficultés
 
-<img src="Projet_2/Projet+2+-+Reservia+FR/Projet_2-Reservia/images/Soutenance/Imp_ecran_bar_de_recherche.jpg" style="height:auto;">
-_______________________________________________________
-<img src="Projet_2/Projet+2+-+Reservia+FR/Projet_2-Reservia/images/Soutenance/Imp_ecran_filtres.jpg" style="height:auto;">
+- Maitrise de Flexbox
 
-<!-- slide -->
-
-<img src="Projet_2/Projet+2+-+Reservia+FR/Projet_2-Reservia/images/Soutenance/Imp_ecran_nav.jpg" style="height:auto;">
-_______________________________________________________
-<img src="Projet_2/Projet+2+-+Reservia+FR/Projet_2-Reservia/images/Soutenance/Imp_ecran_vignettes.jpg" style="height:auto;">
-
-<!-- slide -->
-
-<img src="Projet_2/Projet+2+-+Reservia+FR/Projet_2-Reservia/images/Soutenance/Imp_ecran_page_web_phone.png" style="height:auto;">
-
-<!-- slide -->
-
-# PARTIE 2
-
-- Analyse de la maquette et anticipations
-
-<!-- slide -->
-
-<img src="Projet_2/Projet+2+-+Reservia+FR/Projet_2-Reservia/Desktop-1.png" style="height:auto;">
-
-<!-- slide -->
-
-## Difficultés
-
-- Compréhension et maitrise de Flexbox
-- Appliquer le responsive avec les Media Queries
-
-<!-- slide -->
-
-## Obtenir de l'aide avec flexbox
-<img src="Projet_2/Projet+2+-+Reservia+FR/Projet_2-Reservia/images/Soutenance/Imp_ecran_Flexbox_froggy.png" style="height:auto;">
-
-<!-- slide -->
-
-## PARTIE 3
-- HTML
-- CSS
 - Responsive
 
 <!-- slide -->
 
-### HTML
-<img src="Projet_2/Projet+2+-+Reservia+FR/Projet_2-Reservia/images/Soutenance/Imp_ecran_commentaires_html.jpg" style="height:auto;">
+#Partie 1
 
 <!-- slide -->
 
-## CSS
-<img src="Projet_2/Projet+2+-+Reservia+FR/Projet_2-Reservia/images/Soutenance/Imp_ecran_balises_css.jpg" style="height:auto;">
+## 1 - Analyser la structure de la page
+
+<img src="Projet_2\Projet+2+-+Reservia+FR\Projet_2-Reservia\Desktop-1.png">
 
 <!-- slide -->
 
-## Responsive
-<img src="Projet_2/Projet+2+-+Reservia+FR/Projet_2-Reservia/images/Soutenance/Imp_ecran_responsive_css.jpg" style="height:auto;">
+## 2 - Etablir une première structure HTML de la page
+
+<img src="Projet_2\Projet+2+-+Reservia+FR\Projet_2-Reservia\images\Soutenance\Imp_ecran_commentaires_html.jpg">
 
 <!-- slide -->
-Des questions ?
+
+## 3 - Appliquer le CSS
+
+<img src="Projet_2\Projet+2+-+Reservia+FR\Projet_2-Reservia\images\Soutenance\Imp_ecran_balises_css.jpg">
+
+<!-- slide -->
+
+## 4 - Appliquer le Responsive
+
+<img src="Projet_2\Projet+2+-+Reservia+FR\Projet_2-Reservia\images\Soutenance\Imp_ecran_responsive_css.jpg">
+
+<!-- slide -->
+
+# Partie 2
+
+<!-- slide -->
+
+# 1 - Maitrise de Flexbox
+
+<img src="Projet_2\Projet+2+-+Reservia+FR\Projet_2-Reservia\images\Soutenance\Imp_ecran_vignettes.jpg">
+
+<!-- slide -->
+
+<img src="Projet_2\Projet+2+-+Reservia+FR\Projet_2-Reservia\images\Soutenance\Imp_ecran_Flexbox_froggy.png">
+
+<!-- slide -->
+
+# 2 - Responsive
+
+<img src="Projet_2\Projet+2+-+Reservia+FR\Projet_2-Reservia\images\Soutenance\Imp_ecran_page_web_phone.png">
+
+<!-- slide -->
+
+# Résultat final
+
+<!-- slide -->
+
+<img src="Projet_2\Projet+2+-+Reservia+FR\Projet_2-Reservia\images\Soutenance\Imp_ecran_page_web.png">
+
+<!-- slide -->
+
+<img src="Projet_2\Projet+2+-+Reservia+FR\Projet_2-Reservia\images\Soutenance\Imp_ecran_bar_de_recherche.jpg">
+
+<!-- slide -->
+
+<img src="Projet_2\Projet+2+-+Reservia+FR\Projet_2-Reservia\images\Soutenance\Imp_ecran_filtres.jpg">
+
+<!-- slide -->
+
+<img src="Projet_2\Projet+2+-+Reservia+FR\Projet_2-Reservia\images\Soutenance\Imp_ecran_nav.jpg">
+
+<!-- slide -->
+
+<img src="Projet_2\Projet+2+-+Reservia+FR\Projet_2-Reservia\images\Soutenance\Imp_ecran_vignettes.jpg">
+
+<!-- slide -->
+
+# FIN
