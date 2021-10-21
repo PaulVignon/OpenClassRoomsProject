@@ -537,7 +537,326 @@ a {
   padding-top: 15px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 601px) and (max-width: 1899px){
+
+  body {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Reservia1 {
+    margin-left: 10px;
+  }
+
+  h1, h2{
+    display: flex;
+    font-size: 1.5em;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  .Search {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .search_bar {
+    height: 50px;
+    width: 30%;
+    padding-right: 15px;
+  }
+
+  input, label{
+    margin: 0;
+  }
+
+  i.fas.fa-map-marker-alt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 50px;
+    width: 50px;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+  }
+
+  button{
+    display: none;
+  }
+
+  .for-mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    font-size: 115%;
+    width: 70.25px;
+    height: 50px;
+    padding: 0;
+  }
+
+  .div_Filtres {
+    display: flex;
+    word-wrap: break-word;
+    flex-direction: column;
+  }
+
+  .ul_Filtres {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    align-items: flex-start;
+  }
+
+  .li_Filtres {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0px;
+  }
+
+  .Heb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 2;
+  }
+
+  h2.Titre1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+
+  .nav_top {
+    display: flex;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .nav_top > a {
+    color: #0065fc;
+    justify-content: flex-end;
+  }
+
+  .nav_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    order: 2;
+    flex-grow: 1;
+  }
+
+  .nav_bottom > a {
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    border-top: none;
+    border-bottom: #f2f2f2 solid 2px;
+    line-height: 2em;
+  }
+
+  aside {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+    border-radius: 0em;
+  }
+
+  .Pop10 {
+    display: flex;
+    width: 70%;
+    height: 120px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-radius: 1.3em;
+  }
+
+  h2.Pop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 734px;
+    margin: 0;
+  }
+
+  .Pop {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .Photo2 {
+    width: 200px;
+    height: 120px;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+  }
+
+  .Nom {
+    position: relative;
+    display: flex;
+  }
+
+  .Etoiles {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Pop_Etoiles {
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    flex-direction: row;
+    align-content: flex-end;
+  }
+
+
+  section{
+    display: flex;
+  }
+
+
+
+  .Hébergements10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0px;
+    padding-left: 0px;
+    background-color: white;
+  }
+
+  .Photo1 {
+    flex-direction: row;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    box-sizing: content-box;
+    object-fit: cover;
+    width: 100%;
+    height: 210px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+  }
+
+  .Heb10 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 300px;
+    border-radius: 1.5em;
+  }
+
+  .DisplayHeb {
+    justify-content: center;
+  }
+
+  .aff {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .aff > a {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+  }
+
+  .section_Pop {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .Titre2{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Activités10 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Vignettes1,
+  .Vignettes2,
+  .Vignettes3 {
+    margin: 0;
+    width: 95%;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+
+  .colonne1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .Photo3_Grande,
+  .Photo3_Moyenne,
+  .Photo3_Petite {
+    width: 100%;
+    height: 350px;
+    margin: 0;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .Footer1{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+}
+
+@media screen and (max-width: 710px) {
   body {
     margin-left: 0px;
     margin-right: 0px;
